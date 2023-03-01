@@ -1,0 +1,38 @@
+.main {
+    background-color: #F9D199;
+    text-align: center;
+    color: 70e2ff;
+}
+
+h1 {
+    font-family: "ConeyFont";
+    font-size: 3rem;
+}
+
+body {
+  background-color: #F9D199;
+}
+
+.face img {
+    border-radius: 5px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+.content img {
+    border-radius: 5px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+
+
+.content {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
