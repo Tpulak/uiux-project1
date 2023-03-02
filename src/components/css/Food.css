@@ -3,3 +3,35 @@
     text-align: center;
     color: #1966a6;
 }
+
+.header h1 {
+    font-family: "ConeyFont";
+    font-size: 3rem;
+}
+
+img {
+    border-radius: 5px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+p {
+    background-color: #92C4EE;
+    color: #F6E3D4;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    max-width: 30%;
+    min-width: 285px;
+    margin: 20px 0px;
+    padding: 8px;
+}
+
+.nathan, .rubys, .cones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
