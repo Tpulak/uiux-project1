@@ -28,10 +28,11 @@ p {
     padding: 8px;
 }
 
-.nathan, .rubys, .cones {
+.bus, .train {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
+
