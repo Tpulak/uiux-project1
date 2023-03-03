@@ -3,6 +3,7 @@ import './App.css';
 import Homepage from './components/Homepage';
 import Food from './components/Food';
 import Attractions from './components/Attractions';
+import Directions from './components/Directions';
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Route index element={<Homepage />} />
           <Route path="attractions" element={<Attractions />} />
           <Route path="food" element={<Food />} />
+          <Route path="directions" element={<Directions />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
@@ -42,6 +44,9 @@ function Layout() {
           </li>
           <li>
           <Link style={navStyle} to="/food">Food</Link>
+          </li>
+          <li>
+            <Link style={navStyle} to="/directions">Directions</Link>
           </li>
         </ul>
       </nav>
