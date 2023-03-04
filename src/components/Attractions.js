@@ -4,10 +4,6 @@ import ferris from './img/Wonderwheel.jpg'
 import boardwalk from './img/Boardwalk.jpg'
 import beach from './img/Beach.jpg'
 
-/*
-import pathouse from './img/patricks-house.jpeg'
-import squidhouse from './img/squidwards-house.png'
-*/
 
 function Attractions() {
     return (
@@ -38,7 +34,7 @@ function Attractions() {
         <div className="beach">
           <img src={beach} alt="beach" />
           <p>
-          Coney Island Beach is a vibrant and iconic stretch of sand located in Brooklyn, New York City. It offers visitors a range of activities, from sunbathing and swimming to surfing and fishing. The beach is also home to a historic boardwalk and several amusement parks, making it a popular destination for families, couples, and thrill-seekers alike. With its lively atmosphere, stunning views of the Atlantic Ocean, and array of attractions, Coney Island Beach is a must-visit spot for anyone looking to experience the quintessential New York beach day. 
+          Coney Island Beach is a vibrant and iconic stretch of sand located in Brooklyn, New York City. It offers visitors a range of activities, from sunbathing and swimming to surfing and fishing. The beach is also home to a historic boardwalk and several amusement parks, making it a popular destination for families, couples, and thrill-seekers alike. With its lively atmosphere, stunning views of the Atlantic Ocean, and array of attractions, Coney Island Beach is a must-visit spot for anyone looking to experience the quintessential New York beach day.
           </p>
         </div>
       </div>
