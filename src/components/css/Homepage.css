@@ -4,9 +4,18 @@
     color: 70e2ff;
 }
 
+
 h1 {
     font-family: "ConeyFont";
     font-size: 3rem;
+}
+
+h4 {
+    background-color: #92C4EE;
+    color: #F6E3D4;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    align-items: center;
 }
 
 body {
@@ -15,16 +24,15 @@ body {
 
 .face img{
     border-radius: 5px;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
-    margin: 20px 0px;
 }
 
 .content img {
     border-radius: 5px;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 600px;
     object-fit: cover;
     margin: 20px 0px;
 }

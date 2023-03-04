@@ -26,6 +26,7 @@ p {
     min-width: 285px;
     margin: 20px 0px;
     padding: 8px;
+    align-items: center;
 }
 
 .nathan, .rubys, .cones {

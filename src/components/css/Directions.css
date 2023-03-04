@@ -18,6 +18,7 @@ img {
 }
 
 p {
+    align-items: center;
     background-color: #92C4EE;
     color: #F6E3D4;
     font-size: 1.3rem;
